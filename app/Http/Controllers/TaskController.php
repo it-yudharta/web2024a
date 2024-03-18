@@ -8,6 +8,6 @@ class TaskController extends Controller
 {
     public function index()
     {
-        return 'Cahya Bagus Sanjaya';
+        return view('tasks.index');
     }
 }

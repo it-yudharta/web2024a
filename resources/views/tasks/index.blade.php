@@ -16,6 +16,7 @@
             <th>Judul</th>
             <th>Deskripsi</th>
             <th>Selesai</th>
+            <th>Aksi</th>
         </tr>
         @foreach($tasks as $task)
         <tr>
@@ -23,6 +24,7 @@
             <td>{{ $task->title }}</td>
             <td>{{ $task->description }}</td>
             <td>{{ $task->completed }}</td>
+            <td><a href="/tasks/{{ $task->id }}/edit">Edit</a></td>
         </tr>
         @endforeach
     </table>

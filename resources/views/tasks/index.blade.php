@@ -7,6 +7,9 @@
 </head>
 <body>
     <h1>Daftar Tugas-tugas</h1>
+    <div>
+        <a href="/tasks/create">Buat Tugas</a>
+    </div>
     <table>
         <tr>
             <th>#</th>

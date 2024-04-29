@@ -24,7 +24,10 @@
             <td>{{ $task->title }}</td>
             <td>{{ $task->description }}</td>
             <td>{{ $task->completed }}</td>
-            <td><a href="/tasks/{{ $task->id }}/edit">Edit</a></td>
+            <td>
+                <a href="/tasks/{{ $task->id }}/edit">Edit</a>
+                <a href="/tasks/{{$task->id}}/delete">Hapus</a>
+            </td>
         </tr>
         @endforeach
     </table>

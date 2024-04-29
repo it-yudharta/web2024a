@@ -27,6 +27,7 @@
             <td>
                 <a href="/tasks/{{ $task->id }}/edit">Edit</a>
                 <a href="/tasks/{{$task->id}}/delete">Hapus</a>
+                <a href="/tasks/{{$task->id}}/swap">Swap</a>
             </td>
         </tr>
         @endforeach

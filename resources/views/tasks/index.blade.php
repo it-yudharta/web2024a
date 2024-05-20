@@ -9,6 +9,7 @@
     <h1>Daftar Tugas-tugas</h1>
     <div>
         <a href="/tasks/create">Buat Tugas</a>
+        <a href="/logout">Logout</a>
     </div>
     <table>
         <tr>
